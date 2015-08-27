@@ -1,0 +1,199 @@
+{
+  "hints": [
+    {
+      "name": "myCustomProps.plain_hint-prop",
+      "values": [
+        {
+          "description": "first possible value.",
+          "value": "first"
+        },
+        {
+          "description": "second possible value.",
+          "value": "second"
+        },
+        {
+          "description": "third possible value.",
+          "value": "third"
+        }
+      ]
+    },
+    {
+      "name": "myCustomProps.hint-for-map-prop.keys",
+      "values": [
+        {
+          "description": "first key.",
+          "value": "key1"
+        },
+        {
+          "description": "second key.",
+          "value": "key2"
+        },
+        {
+          "description": "third key.",
+          "value": "key3"
+        }
+      ]
+    },
+    {
+      "name": "myCustomProps.hint-for-map-prop.values",
+      "values": [
+        {
+          "value": "val1",
+          "description": "FIRST VALUE."
+        },
+        {
+          "value": "val2",
+          "description": "SECOND VALUE."
+        },
+        {
+          "value": "val3",
+          "description": "THIRD VALUE."
+        },
+        {
+          "value": "val4",
+          "description": "FORTH VALUE."
+        }
+      ]
+    },
+    {
+      "name": "myCustomProps.any-provider-prop",
+      "providers": [
+        {
+          "name": "any"
+        }
+      ],
+      "values": [
+        {
+          "value": "val1"
+        },
+        {
+          "value": "val2"
+        }
+      ]
+    },
+    {
+      "name": "myCustomProps.class-ref-prop",
+      "providers": [
+        {
+          "name": "class-reference",
+          "parameters": {
+            "target": "mytests.springboot.customProps.utils.BeanService1",
+            "concrete": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "myCustomProps.handle-as-enum-prop",
+      "providers": [
+        {
+          "name": "handle-as",
+          "parameters": {
+            "target": "mytests.springboot.customProps.utils.MyEnum"
+          }
+        }
+      ]
+    },
+    {
+      "name": "myCustomProps.handle-as-res-prop",
+      "providers": [
+        {
+          "name": "handle-as",
+          "parameters": {
+            "target": "org.springframework.core.io.Resource"
+          }
+        }
+      ]
+    },
+    {
+      "name": "myCustomProps.handle-as-locale-prop",
+      "providers": [
+        {
+          "name": "handle-as",
+          "parameters": {
+            "target": "java.util.Locale"
+          }
+        }
+      ]
+    },
+    {
+      "name": "myCustomProps.handle-as-charset-prop",
+      "providers": [
+        {
+          "name": "handle-as",
+          "parameters": {
+            "target": "java.nio.charset.Charset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "myCustomProps.handle-as-mimetype-prop",
+      "providers": [
+        {
+          "name": "handle-as",
+          "parameters": {
+            "target": "org.springframework.util.MimeType"
+          }
+        }
+      ]
+    },
+    {
+      "name": "myCustomProps.logger-provider-prop.keys",
+      "values": [
+        {
+          "value": "logRoot",
+          "description": "the logging root."
+        }
+      ],
+      "providers": [
+        {
+          "name": "logger-name"
+        }
+      ]
+    },
+    {
+      "name": "myCustomProps.logger-provider-prop.values",
+      "values": [
+        {
+          "value": "info"
+        },
+        {
+          "value": "debug"
+        },
+        {
+          "value": "warn"
+        },
+        {
+          "value": "error"
+        }
+      ]
+    },
+    {
+      "name": "myCustomProps.bean-provider-prop",
+      "providers": [
+        {
+          "name": "spring-bean-reference",
+          "parameters": {
+            "target": "mytests.springboot.customProps.utils.MyBean1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "myCustomProps.profile-provider-prop",
+      "providers": [
+        {
+          "name": "spring-profile-name"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "name": "mycustom.props.val2",
+      "type": "java.lang.String",
+      "description": "Description for mycustom.props.val2."
+    }
+  ]
+}
