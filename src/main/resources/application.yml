@@ -4,4 +4,3 @@ myCustomProps:
   handle-as-locale-prop: ru_RU
   handle-as-enum-prop:
   any-provider-prop: val1
-
