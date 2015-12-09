@@ -1,0 +1,7 @@
+myCustomProps:
+  bean-provider-prop: myBean1
+  handle-as-res-prop: classpath*:asm-license.txt
+  handle-as-locale-prop: ru_RU
+  handle-as-enum-prop:
+  any-provider-prop: val1
+
