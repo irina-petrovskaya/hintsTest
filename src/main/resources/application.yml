@@ -1,6 +1,5 @@
 myCustomProps:
-  bean-provider-prop: myBean1
-  handle-as-res-prop: classpath*:asm-license.txt
-  handle-as-locale-prop: ru_RU
-  handle-as-enum-prop:
+  profile-provider-prop: prof1
   any-provider-prop: val1
+
+debug: true
