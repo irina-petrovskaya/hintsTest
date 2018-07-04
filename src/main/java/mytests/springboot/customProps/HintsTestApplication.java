@@ -7,12 +7,20 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Profile;
 
-@SpringBootApplication
+
 @EnableConfigurationProperties
+@SpringBootApplication
 public class HintsTestApplication implements CommandLineRunner {
     @Bean
-    MyProps myProps(){
+    @Profile("prof1")
+    MyProps myProps1(){
+        return new MyProps();
+    }
+    @Bean
+    @Profile("prof2")
+    MyProps myProps2(){
         return new MyProps();
     }
     @Autowired
