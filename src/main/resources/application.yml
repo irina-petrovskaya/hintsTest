@@ -1,5 +1,7 @@
 myCustomProps:
   profile-provider-prop: prof1
   any-provider-prop: val1
-
+  hint-for-map-prop:
+    key4: val4
+    key5: val1
 debug: true
