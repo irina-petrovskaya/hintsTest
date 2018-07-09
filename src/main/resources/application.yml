@@ -1,7 +1,12 @@
-myCustomProps:
+mycustomprops:
   profile-provider-prop: prof1
-  any-provider-prop: val1
+  any-provider-prop: val2
   hint-for-map-prop:
     key4: val4
-    key5: val1
+    'key5': 'val1'
+  handle-as-enum-prop: ec2
+  handle-as-locale-prop: fr_FR
+  handle-as-mimetype-prop: application/activemessage
+  handle-as-res-prop: classpath*:application.yml
+
 debug: true

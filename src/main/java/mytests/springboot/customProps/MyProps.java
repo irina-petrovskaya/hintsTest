@@ -11,7 +11,7 @@ import java.util.Map;
  * Project: hintsTest
  * *******************************
  */
-@ConfigurationProperties("myCustomProps")
+@ConfigurationProperties("mycustomprops")
 public class MyProps {
 
     String plain_hintProp;
