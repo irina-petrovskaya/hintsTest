@@ -33,5 +33,15 @@ public class HintsTestApplication implements CommandLineRunner {
     @Override
     public void run(String... stringsArg) throws Exception {
         System.out.println(myProps.getAnyProviderProp());
+        System.out.println(myProps.getBeanProviderProp());
+        System.out.println(myProps.getClassRefProp());
+        System.out.println(myProps.getHandleAsCharsetProp());
+        System.out.println(myProps.getHandleAsEnumProp());
+        System.out.println(myProps.getHandleAsLocaleProp());
+        System.out.println(myProps.getHandleAsMimetypeProp());
+        System.out.println(myProps.getHandleAsResProp());
+        System.out.println(myProps.getMyBean1Prop());
+        System.out.println(myProps.getPlain_hintProp());
+        System.out.println(myProps.getProfileProviderProp());
     }
 }
