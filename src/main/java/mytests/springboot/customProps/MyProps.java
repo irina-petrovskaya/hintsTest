@@ -1,5 +1,6 @@
 package mytests.springboot.customProps;
 
+import mytests.springboot.customProps.utils.MyBean1;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 import java.util.Map;
@@ -10,7 +11,7 @@ import java.util.Map;
  * Project: hintsTest
  * *******************************
  */
-@ConfigurationProperties("myCustomProps")
+@ConfigurationProperties("mycustomprops")
 public class MyProps {
 
     String plain_hintProp;
@@ -25,6 +26,16 @@ public class MyProps {
     Map<String,String> loggerProviderProp;
     String beanProviderProp;
     String profileProviderProp;
+
+    MyBean1 myBean1Prop;
+
+    public MyBean1 getMyBean1Prop() {
+        return myBean1Prop;
+    }
+
+    public void setMyBean1Prop(MyBean1 myBean1Prop) {
+        this.myBean1Prop = myBean1Prop;
+    }
 
     public String getPlain_hintProp() {
         return plain_hintProp;
